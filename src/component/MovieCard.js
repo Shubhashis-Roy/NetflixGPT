@@ -45,7 +45,7 @@ const MovieCard = ({ posterPath, movies }) => {
                   className="text-white bg-red-600 p-1 rounded-lg mt-2 ml-12"
                   onClick={() => handleAddItem(posterPath)}
                 >
-                  Add to Cart
+                  Add :add
                 </button>
                 <ToastContainer />
               </div>

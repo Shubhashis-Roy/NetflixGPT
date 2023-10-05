@@ -3,11 +3,12 @@ export const chackValidatData = (email, password) => {
     email
   );
   const isPasswordValid =
-    /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/.test(password);
+    // /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{6,}$/.test(password);
+    /^(?=.*[a-z]).{6,}$/.test(password);
 
   if (!isEmailValid) return "Email Id is Not Valid";
   if (!isPasswordValid) {
-    return "Password is Not Valid";
+    return "Your password must be at least 6 characters long";
   }
   return null;
 };
