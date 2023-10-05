@@ -49,7 +49,7 @@ const lang = {
     signInNow: "अब साइन इन करो",
     signUpNow: "अभी साइनअप करें",
     newToNetflix: "नेटफ़्लिक्स पर नया है",
-    cart: "कार्ट",
+    cart: "पसंदीदा सूची",
     totalMovie: "फिल्मों की कुल संख्या",
   },
   spanish: {
@@ -75,7 +75,7 @@ const lang = {
     signInNow: "Regístrate",
     signUpNow: "Regístrate Ahora",
     newToNetflix: "Nueva en Netflix",
-    cart: "Carro",
+    cart: "Lista de favoritos",
     totalMovie: "Película Total",
   },
 };

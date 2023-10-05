@@ -4,20 +4,27 @@
 
   <h1>NETFLIX-GPT</h1>
     <p>
-NETFLIX-GPT with NODE.JS!(Tailwind CSS, TMDB Api, Firebase, primary information about a movies)
+NETFLIX-GPT with React.js, Firebase, React-Redux, Tailwind Css, Integrate OpenAI API, TMDB API.
   </p>
 
 </div>
 
 <hr>
+<h3> <a href= "https://netflix-gpt-subha.netlify.app/" >View Demo</a> </h3>
 <h2>Description</h2>
-This project is a simplified backcnd and frontend clone of Netflix. Any User can <b>create an account</b> or <b>login</b> using <b>gmail</b>  and search for <b> movies, drama </b> and <b> web series</b>.Users can also added movies and drame in their <b>favorite list </b>.
+
+- This is a simplified version of Netflix, Where user can <b>search</b> a particuler type of movie ( Funny Movies, Action Movies, Horror Movies ) and than some
+  movies will be <b>suggest according to the search. </b>
+- Developed a <b>multi-language</b> support feature, English, Hindi and Spanish.
+- Users can SignUp/Login their account using Gmail and Users can added movies to their favorites list.
+- Using the <b>Dynamic loading</b> concept.
 
 ### Concepts
 
-#### This Netfix Clone is build on three basic concepts
+#### Basic concepts of Netfix GPT
 
-- Searching: The root concept of the this clone is after create or login user can search any movies, drama and web series with their choose.
+- Movie Recomendation : User can <b>search</b> a movie type (Funny Movies, Action Movies, Horror Movies) and than some
+  movies will be <b>suggest according to the search. </b>
 
 - Categorically Distincted: After login or singup, user can witness the contains are divied into their specific domain.
 
@@ -27,30 +34,31 @@ This project is a simplified backcnd and frontend clone of Netflix. Any User can
 <table>
       <tbody>
         <tr>
-          <th>Express.js</th>
-           <th>Node.js</th>
-           <th>Mongodb</th>
+          <th>React.js</th>
+           <th>React-Redux</th>
+           <th>Integrate OpenAI API</th>
         </tr>
           <tr>
-           <th>React</th>
-           <th>Axios</th>
            <th>Firebase</th>
+           <th>Tailwind Css</th>
+           <th>TMDB API</th>
          </tr>
       </tbody>    
 </table
 
 ### <b> NPM Packages </b>
 
-- express
-- bcrypy
-- mongoose
-- cors
-- dotenv
-- nodemon
+- react
+- openai
+- firebase
+- react-redux
+- react-icons
+- react-toastify
+- reduxjs/toolkit
+- react-router-dom
 
 ### Other Applications
 
-- Postman
 - Thunder Client
 - Vs Code
 
@@ -74,9 +82,12 @@ This project is a simplified backcnd and frontend clone of Netflix. Any User can
 
 ### 9. setupp .env variables
 
-- PORT
-- MONGO_URI
-- USER_EMAIL
+- OPENAI_KEY
+- TMDB_KEY
+- FIREBASE_APIKEY
+- FIREBASE_AUTHDOMAIN
+- FIREBASE_PROJECT_ID
+- FIREBASE_APP_ID
 
 ### 10. Replace baseUrl with your host address (eg:- http://localhost:3000/ ) for Api call in client side scripts present inside root -> public -> js
 

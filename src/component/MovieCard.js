@@ -3,6 +3,7 @@ import { IMG_CDN_URL } from "../utils/constant";
 import { useDispatch } from "react-redux";
 import { addItem } from "../utils/redux/cartSlice";
 import { ToastContainer, toast } from "react-toastify";
+import { BsFillCartPlusFill } from "react-icons/bs";
 
 const MovieCard = ({ posterPath, movies }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -40,15 +41,19 @@ const MovieCard = ({ posterPath, movies }) => {
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               ></iframe>
-              <div className="flex">
-                <button
-                  className="text-white bg-red-600 p-1 rounded-lg mt-2 ml-12"
-                  onClick={() => handleAddItem(posterPath)}
-                >
-                  Add :add
-                </button>
-                <ToastContainer />
-              </div>
+
+              <button
+                className="text-white bg-red-600 p-1 rounded-lg mt-2 ml-12"
+                onClick={() => handleAddItem(posterPath)}
+              >
+                <div className="flex ">
+                  Add :{" "}
+                  <div className="mt-1 ">
+                    <BsFillCartPlusFill />
+                  </div>
+                </div>
+              </button>
+              <ToastContainer />
             </div>
           </>
         ) : (
