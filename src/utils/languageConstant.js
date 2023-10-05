@@ -25,6 +25,7 @@ const lang = {
     newToNetflix: "New To Netflix",
     cart: "Favorites List",
     totalMovie: "Total Movies",
+    addButton: "Add",
   },
   hindi: {
     search: "खोज",
@@ -51,6 +52,7 @@ const lang = {
     newToNetflix: "नेटफ़्लिक्स पर नया है",
     cart: "पसंदीदा सूची",
     totalMovie: "फिल्मों की कुल संख्या",
+    addButton: "जोड़ना",
   },
   spanish: {
     search: "Buscar",
@@ -75,8 +77,9 @@ const lang = {
     signInNow: "Regístrate",
     signUpNow: "Regístrate Ahora",
     newToNetflix: "Nueva en Netflix",
-    cart: "Lista de favoritos",
+    cart: "Lista de Favoritos",
     totalMovie: "Película Total",
+    addButton: "Agregar",
   },
 };
 
