@@ -2,9 +2,9 @@
 
   <img src="https://user-images.githubusercontent.com/99184393/210160017-d4ded1e1-49d8-424d-b14c-a284856e730c.png" alt="logo" width="205" height="auto" />
 
-  <h1>NETFLIX 2.0 with NODE.JS!</h1>
+  <h1>NETFLIX-GPT</h1>
     <p>
-NETFLIX 2.0 with NODE.JS!(Node.js, Express v4.18.1, Tailwind CSS, TMDB Api, Firebase Authentication, primary information about a movies)
+NETFLIX-GPT with NODE.JS!(Tailwind CSS, TMDB Api, Firebase, primary information about a movies)
   </p>
 
 </div>
