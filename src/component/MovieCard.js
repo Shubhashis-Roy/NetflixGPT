@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import { IMG_CDN_URL } from "../utils/constant";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addItem } from "../utils/redux/cartSlice";
 import { ToastContainer, toast } from "react-toastify";
 import { BsFillCartPlusFill } from "react-icons/bs";
+import lang from "../utils/languageConstant";
 
 const MovieCard = ({ posterPath, movies }) => {
   const [isHovered, setIsHovered] = useState(false);
+  const languageKey = useSelector((store) => store.config.lang);
+
   const dispatch = useDispatch();
 
   if (!posterPath) return null;
@@ -47,7 +50,7 @@ const MovieCard = ({ posterPath, movies }) => {
                 onClick={() => handleAddItem(posterPath)}
               >
                 <div className="flex ">
-                  Add :{" "}
+                  {lang[languageKey].addButton} :{" "}
                   <div className="mt-1 ">
                     <BsFillCartPlusFill />
                   </div>
