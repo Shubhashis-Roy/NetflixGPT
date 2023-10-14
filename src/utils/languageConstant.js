@@ -26,6 +26,7 @@ const lang = {
     cart: "Favorites List",
     totalMovie: "Total Movies",
     addButton: "Add",
+    signInWithGoogle: "Sign In With Google",
   },
   hindi: {
     search: "खोज",
@@ -53,6 +54,7 @@ const lang = {
     cart: "पसंदीदा सूची",
     totalMovie: "फिल्मों की कुल संख्या",
     addButton: "जोड़ना",
+    signInWithGoogle: "गूगल से साइन इन करें",
   },
   spanish: {
     search: "Buscar",
@@ -80,6 +82,7 @@ const lang = {
     cart: "Lista de Favoritos",
     totalMovie: "Película Total",
     addButton: "Agregar",
+    signInWithGoogle: "Inicia Sesión Con Google",
   },
 };
 
