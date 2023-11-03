@@ -51,6 +51,7 @@ NETFLIX-GPT with React.js, Firebase, React-Redux, Tailwind Css, Integrate OpenAI
 - openai
 - firebase
 - react-redux
+- react-router
 - react-icons
 - react-toastify
 - reduxjs/toolkit
