@@ -13,11 +13,10 @@ NETFLIX-GPT with React.js, Firebase, React-Redux, Tailwind Css, Integrate OpenAI
 <h3> <a href= "https://netflix-gpt-subha.netlify.app/" >View Demo</a> </h3>
 <h2>Description</h2>
 
-- This is a simplified version of Netflix, Where user can <b>search</b> a particuler type of movie ( Funny Movies, Action Movies, Horror Movies ) and than some
-  movies will be <b>suggest according to the search. </b>
+- It's a highly optimized responsive design video streaming platform, Where users can search for a particular type of movie, and then some movies will be <b>suggest according to the search. </b>
+- Develop a <b> large scalable app </b> that loads within <b> 250 ms </b> to achieve this Using the <b> lazy loading concept </b>.
 - Developed a <b>multi-language</b> support feature, English, Hindi and Spanish.
-- Users can SignUp/Login their account using Gmail and Users can added movies to their favorites list.
-- Using the <b>Dynamic loading</b> concept.
+- Users can <b> sign up/Login </b> their account using <b> Gmail </b> and Users can add movies to their <b> favorites list</b>.
 
 ### Concepts
 

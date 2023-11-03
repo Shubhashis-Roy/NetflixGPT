@@ -138,11 +138,6 @@ const Header = () => {
                   )}
                 </button>
               </div>
-              {/* <img
-                className="hidden md:inline-block w-16 h-16 mt-4 p-2"
-                alt="userIcon"
-                src={user?.photoURL}
-              /> */}
               <div>
                 <button
                   onClick={handleSignOut}

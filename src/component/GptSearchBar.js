@@ -19,7 +19,6 @@ const GptSearchBar = () => {
       API_Option
     );
     const json = await data.json();
-    console.log(json);
     return json.results;
   };
 
