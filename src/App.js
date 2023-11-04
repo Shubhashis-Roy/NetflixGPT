@@ -1,4 +1,4 @@
-import Body from "./component/Body";
+import Body from "./component/Common/Body";
 import { Provider } from "react-redux";
 import appStore from "./utils/redux/appStore";
 import "react-toastify/dist/ReactToastify.css";

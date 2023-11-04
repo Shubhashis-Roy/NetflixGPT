@@ -1,16 +1,16 @@
 import React, { useEffect } from "react";
-import CartItem from "../component/CartItem";
+import CartItem from "./CartItem";
 import { signOut } from "firebase/auth";
-import { auth } from "../utils/firebase";
+import { auth } from "../../utils/firebase";
 import { useDispatch, useSelector } from "react-redux";
-import { NetflixLogo, Supported_Languages } from "../utils/constant";
-import { changeLanguage } from "../utils/redux/configSlice";
+import { NetflixLogo, Supported_Languages } from "../../utils/constant";
+import { changeLanguage } from "../../utils/redux/configSlice";
 import { useNavigate } from "react-router-dom";
-import { BackgroundImg } from "../utils/constant";
-import { removeItem } from "../utils/redux/cartSlice";
+import { BackgroundImg } from "../../utils/constant";
+import { removeItem } from "../../utils/redux/cartSlice";
 import { onAuthStateChanged } from "firebase/auth";
-import { addUser, removeUser } from "../utils/redux/userSlice";
-import lang from "../utils/languageConstant";
+import { addUser, removeUser } from "../../utils/redux/userSlice";
+import lang from "../../utils/languageConstant";
 import { ToastContainer, toast } from "react-toastify";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 

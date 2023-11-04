@@ -1,16 +1,16 @@
 import React, { useRef, useState } from "react";
-import Header from "../component/Header";
-import { chackValidatData } from "../utils/validation";
+import Header from "../Common/Header";
+import { chackValidatData } from "../../utils/validation";
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   updateProfile,
 } from "firebase/auth";
-import { auth, googleProvider } from "../utils/firebase";
+import { auth, googleProvider } from "../../utils/firebase";
 import { useDispatch, useSelector } from "react-redux";
-import { addUser } from "../utils/redux/userSlice";
-import { BackgroundImg } from "../utils/constant";
-import lang from "../utils/languageConstant";
+import { addUser } from "../../utils/redux/userSlice";
+import { BackgroundImg } from "../../utils/constant";
+import lang from "../../utils/languageConstant";
 import { ToastContainer, toast } from "react-toastify";
 import { signInWithPopup } from "firebase/auth";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import MovieList from "./MovieList";
 import { useSelector } from "react-redux";
-import lang from "../utils/languageConstant";
+import lang from "../../utils/languageConstant";
 
 const SecondaryContainer = () => {
   const movies = useSelector((store) => store.movies);

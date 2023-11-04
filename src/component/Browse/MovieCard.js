@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { IMG_CDN_URL } from "../utils/constant";
+import { IMG_CDN_URL } from "../../utils/constant";
 import { useDispatch, useSelector } from "react-redux";
-import { addItem } from "../utils/redux/cartSlice";
+import { addItem } from "../../utils/redux/cartSlice";
 import { ToastContainer, toast } from "react-toastify";
 import { BsFillCartPlusFill } from "react-icons/bs";
-import lang from "../utils/languageConstant";
+import lang from "../../utils/languageConstant";
 
 const MovieCard = ({ posterPath, movies }) => {
   const [isHovered, setIsHovered] = useState(false);

@@ -1,8 +1,8 @@
 import React from "react";
-import Login from "../pages/Login";
-import Browse from "../pages/Browse";
+import Login from "../Auth/Login";
+import Browse from "../Browse/Browse";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Cart from "../pages/Cart";
+import Cart from "../Cart/Cart";
 
 const Body = () => {
   const appRouter = createBrowserRouter([

@@ -1,5 +1,5 @@
 import React from "react";
-import lang from "../utils/languageConstant";
+import lang from "../../utils/languageConstant";
 import { useSelector } from "react-redux";
 import { AiOutlinePlayCircle } from "react-icons/ai";
 import { GoInfo } from "react-icons/go";
