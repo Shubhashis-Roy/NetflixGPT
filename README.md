@@ -10,7 +10,7 @@ NETFLIX-GPT with React.js, Firebase, React-Redux, Tailwind Css, Integrate OpenAI
 </div>
 
 <hr>
-<h3> <a href= "https://netflix-gpt-subha.netlify.app/" >View Demo</a> </h3>
+<h3> <a href= "https://netflix-gpt-subha.netlify.app/" >Live Demo</a> </h3>
 <p>Login Demo: <br/> Email: user@gmail.com <br/> Password: user@5 </p>
 <h2>Description</h2>
 
